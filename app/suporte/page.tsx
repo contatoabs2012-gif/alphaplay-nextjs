@@ -4,8 +4,21 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Suporte – AlphaPlay TV",
-  description: "Precisa de ajuda? Nossa equipe está disponível via WhatsApp para te atender rapidamente.",
+  title: "Suporte AlphaPlay – Atendimento via WhatsApp",
+  description:
+    "Suporte AlphaPlay disponível via WhatsApp. Ajuda com recarga, código de resgate, renovação, instalação do APK e TV Box. Atendimento rápido e humanizado.",
+  keywords: [
+    "suporte alphaplay",
+    "whatsapp alphaplay",
+    "recarga alphaplay",
+    "código resgate alphaplay",
+    "renovar alphaplay",
+    "alphaplay apk",
+    "alphaplay tv box",
+  ],
+  alternates: {
+    canonical: "https://alphaplaytv.com.br/suporte",
+  },
 };
 
 const WA_SUPPORT = "https://wa.me/5564993275252?text=Preciso+de+suporte";
