@@ -1,4 +1,4 @@
-const WA_SUPPORT = "https://wa.me/5564993275252?text=Preciso+de+suporte";
+const WA_SUPPORT = `https://wa.me/5564993275252?text=${encodeURIComponent("Olá, AlphaPlay! Preciso de suporte.")}`;
 
 const items = [
   { icon: "⚡", title: "Resposta Rápida",       desc: "Atendimento ágil para resolver seu problema na hora" },

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const WA_TRIAL = "https://wa.me/5564993275252?text=Quero+solicitar+o+teste+gr%C3%A1tis+de+24h";
+const WA_TRIAL = `https://wa.me/5564993275252?text=${encodeURIComponent("Olá, AlphaPlay! Quero solicitar o teste grátis de 24h.")}`;
 
 export default function Hero() {
   return (

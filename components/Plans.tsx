@@ -7,7 +7,7 @@ const plans = [
     price: "21,90",
     perDay: "R$0,73/dia",
     popular: false,
-    waText: "Quero+assinar+o+plano+Mensal+R%2421%2C90",
+    waText: "Olá, AlphaPlay! Quero assinar o plano Mensal por R$21,90.",
   },
   {
     name: "TRIMESTRAL",
@@ -15,7 +15,7 @@ const plans = [
     price: "51,90",
     perDay: "R$0,58/dia",
     popular: true,
-    waText: "Quero+assinar+o+plano+Trimestral+R%2451%2C90",
+    waText: "Olá, AlphaPlay! Quero assinar o plano Trimestral por R$51,90.",
   },
   {
     name: "SEMESTRAL",
@@ -23,7 +23,7 @@ const plans = [
     price: "76,90",
     perDay: "R$0,43/dia",
     popular: false,
-    waText: "Quero+assinar+o+plano+Semestral+R%2476%2C90",
+    waText: "Olá, AlphaPlay! Quero assinar o plano Semestral por R$76,90.",
   },
   {
     name: "ANUAL",
@@ -31,7 +31,7 @@ const plans = [
     price: "131,90",
     perDay: "R$0,36/dia",
     popular: false,
-    waText: "Quero+assinar+o+plano+Anual+R%24131%2C90",
+    waText: "Olá, AlphaPlay! Quero assinar o plano Anual por R$131,90.",
   },
 ];
 
@@ -85,7 +85,7 @@ export default function Plans() {
               <p className="text-ap-green text-sm font-bold mb-6">apenas {plan.perDay}</p>
 
               <a
-                href={`https://wa.me/${WA}?text=${plan.waText}`}
+                href={`https://wa.me/${WA}?text=${encodeURIComponent(plan.waText)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-center gap-2 bg-ap-green hover:bg-green-500 text-white font-bold py-3 rounded-xl transition-colors text-sm"
