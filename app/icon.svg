@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612" style="fill-rule:evenodd;clip-rule:evenodd">
+<defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil7 {fill:#ffffff}
+    .fil0 {fill:#149438}
+    .fil2 {fill:#45B4E3}
+    .fil3 {fill:#7DDFFC}
+    .fil1 {fill:#8AC566}
+    .fil4 {fill:#C6132F}
+    .fil5 {fill:#EB5D1F}
+    .fil6 {fill:#F28600}
+   ]]>
+  </style>
+    <mask id="id0">
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="339.35" y1="364.81" x2="339.37" y2="576.36">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+     <rect style="fill:url(#id1)" x="106.64" y="323.73" width="425.69" height="292.81"/>
+    </mask>
+    <mask id="id2">
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="550.79" y1="220.4" x2="550.79" y2="346.82">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+     <rect style="fill:url(#id3)" x="445.01" y="191.51" width="171.54" height="310.61"/>
+    </mask>
+    <mask id="id4">
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" x1="301.45" y1="-27.7" x2="503.54" y2="210.46">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+     <rect style="fill:url(#id5)" x="302.73" y="-4.58" width="280.99" height="262.12"/>
+    </mask>
+ </defs>
+<g id="_2484909166576">
+   <path class="fil0" d="M527.75 516.8c-55.74,58.62 -134.49,95.16 -221.76,95.16 -74,0 -141.86,-26.26 -194.77,-69.98l296.77 -213.67 119.76 188.49z"/>
+   <path class="fil1" style="mask:url(#id0)" d="M527.75 516.8c-55.74,58.62 -134.49,95.16 -221.76,95.16 -74,0 -141.86,-26.26 -194.77,-69.98l296.77 -213.67 119.76 188.49z"/>
+   <path class="fil2" d="M591.63 196.09c13.13,34.1 20.34,71.15 20.34,109.88 0,72.52 -25.24,139.14 -67.4,191.57l-94.98 -199.18 142.04 -102.27z"/>
+   <path class="fil3" style="mask:url(#id2)" d="M591.63 196.09c13.13,34.1 20.34,71.15 20.34,109.88 0,72.52 -25.24,139.14 -67.4,191.57l-94.98 -199.18 142.04 -102.27z"/>
+   <path class="fil4" d="M43.37 463.06c-27.53,-45.93 -43.37,-99.65 -43.37,-157.09 0,-158.48 120.49,-288.82 274.86,-304.42l-231.49 461.51zm334.59 -182.01l-214.97 120.85 128.89 -256.35 86.08 135.5z"/>
+   <path class="fil5" d="M307.31 0c118.77,0.5 221.57,68.68 271.83,167.97l-151.2 84.99 -120.63 -252.96z"/>
+   <path class="fil6" style="mask:url(#id4)" d="M307.31 0c118.77,0.5 221.57,68.68 271.83,167.97l-151.2 84.99 -120.63 -252.96z"/>
+  </g>
+</svg>
